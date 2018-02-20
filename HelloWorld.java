@@ -18,7 +18,7 @@ public class HelloWorld {
         // use the mutable StringBuilder class
         StringBuilder sb = new StringBuilder();
         for(int i = 0; i < tests; i++) {
-            sb.append("*");
+            sb.append("*"); // This is for conflict
         }
         // Stop the stop watch and print time elapsed
         System.out.println("StringBuilder: " + (System.nanoTime() - now) + units);
