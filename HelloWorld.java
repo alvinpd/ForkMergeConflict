@@ -14,12 +14,13 @@ public class HelloWorld {
         // Stop the stop watch and print time elapsed
         System.out.println("String concatenation: " + (System.nanoTime() - now) + units);
         // reset timer to current time
-        now = System.nanoTime();
+        now = System.nanoTime(); // Hoho comment...
         // use the mutable StringBuilder class
         StringBuilder sb = new StringBuilder();
         for(int i = 0; i < tests; i++) {
             sb.append("*"); // This is for conflict
         }
+        // Just another line
         // Stop the stop watch and print time elapsed
         System.out.println("StringBuilder: " + (System.nanoTime() - now) + units);
     }
